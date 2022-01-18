@@ -1,0 +1,30 @@
+{
+  "name": "dragndrop",
+  "version": "1.0.0",
+  "description": "Simple drag and drop project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThalesRocha/dragndrop.git"
+  },
+  "author": "Thales Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThalesRocha/dragndrop/issues"
+  },
+  "homepage": "https://github.com/ThalesRocha/dragndrop#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "lite-server": "^2.6.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.4",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}

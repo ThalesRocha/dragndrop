@@ -1,2 +1,5 @@
 # Drag and drop
-Simple drag and drop project
+
+A simple Drag and Drop project I built when I was learning TypeScript.
+
+
